@@ -6,5 +6,10 @@ using OrchardCore.Modules.Manifest;
     Website = "https://github.com/Lombiq/Orchard-Azure-Application-Insights",
     Version = "0.0.1",
     Description = "Integrates Azure Application Insights telemetry collection.",
+    DefaultTenantOnly = true,
+    Dependencies =
+    [
+        "OrchardCore.Media.Azure.Storage",
+    ],
     Category = "Hosting"
 )]
